@@ -1,0 +1,36 @@
+{
+  "name": "@trenskow/esbuild-package-json",
+  "version": "0.1.0",
+  "description": "A esbuild plugin for generating `package.json` files.",
+  "keywords": [
+    "esbuild",
+    "package",
+    "json"
+  ],
+  "homepage": "https://github.com/trenskow/esbuild-package-json#readme",
+  "bugs": {
+    "url": "https://github.com/trenskow/esbuild-package-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trenskow/esbuild-package-json.git"
+  },
+  "license": "BSD-2-Clause",
+  "author": "Kristian Trenskow <this.is@kristians.email>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.2",
+    "keyd": "^2.1.50"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.0.2",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.3.0"
+  }
+}
