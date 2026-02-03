@@ -35,12 +35,12 @@ export default ({
 
 				const sourceContent = await readFile(source, 'utf8');
 
-				keyPaths = keyPaths || keyd(sourceContent).keyPaths();
-
 				const indentation = sourceContent.match(/^( +|\t)/m)
 					?.sort((a, b) => a.length - b.length)?.[0] || '  ';
 
 				const sourcePackageJson = JSON.parse(sourceContent);
+
+				keyPaths = keyPaths || keyd(sourcePackageJson).keyPaths();
 
 				const destinationPackageJson = Object.assign({}, keyPaths.reduce((accumulator, keyPath) => {
 					const value = keyd(sourcePackageJson).get(keyPath);
