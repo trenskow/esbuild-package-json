@@ -23,14 +23,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "esbuild": "^0.27.2",
-    "keyd": "^2.1.50"
+    "esbuild": "^0.27.3",
+    "keyd": "^2.1.51"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.2",
     "@eslint/eslintrc": "^3.3.3",
-    "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
     "globals": "^17.3.0"
   }
 }
