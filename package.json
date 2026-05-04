@@ -23,7 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "esbuild": "^0.27.7",
+    "esbuild": "^0.28.0",
     "keyd": "^2.1.54"
   },
   "devDependencies": {
