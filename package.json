@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "esbuild": "^0.28.0",
-    "keyd": "^2.1.54"
+    "keyd": "^2.1.55"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.5",
