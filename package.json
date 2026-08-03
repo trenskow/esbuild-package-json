@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/esbuild-package-json",
-  "version": "0.1.33",
+  "version": "0.1.34",
   "description": "A esbuild plugin for generating `package.json` files.",
   "keywords": [
     "esbuild",
